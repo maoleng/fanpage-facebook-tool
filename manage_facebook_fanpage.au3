@@ -75,6 +75,7 @@ Func scan()
 	local $content_comments = GUICtrlRead($input_content_reply)
 	local $save_phone = GUICtrlRead($checkbox_save_phone)
 	local $hide_comment = GUICtrlRead($checkbox_hide_comment)
+	local $delay_time = GUICtrlRead($input_delay_time)
 	local $file_path_phone_numbers = FileOpen('phones.txt', 1)
 
 	for $comment in $comments
@@ -97,9 +98,13 @@ Func scan()
 		EndIf
 
 	Next
-
+	
 	FileClose($file_path_phone_numbers)
-
+	
+	;đệ quy, sau một khoảng delay thì tự động gọi lại hàm scan
+	Sleep($delay_time)
+	scan()
+	
 EndFunc
 
 Func _hide_comment($comment_id)
