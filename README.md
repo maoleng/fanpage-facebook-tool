@@ -36,4 +36,5 @@
 
 It will be like this:
 <br><br>
+<img src = "https://github.com/maoleng/media/blob/huuloc/fanpage-facebook-tool.gif?raw=true">
 
