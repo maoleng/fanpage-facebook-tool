@@ -21,11 +21,14 @@
 			<li>
 				Create an application at <a href = "https://developers.facebook.com/apps/">here</a>
 			</li>
-      <li>
-        Get <a href = "https://developers.facebook.com/tools/explorer">a page's full permission token</a>
-      </li>
 			<li>
-				Follow like below ⬇️
+        			Get <a href = "https://developers.facebook.com/tools/explorer">a page's full permission token</a>
+      			</li>
+			<li>
+				If you are user, just install the compiled file (.exe file) in this repostories and config.ini
+			</li>
+			<li>
+				Replace your token in the config.ini file
 			</li>
 		</ul>
 	</li>
@@ -33,4 +36,4 @@
 
 It will be like this:
 <br><br>
-wait for completting...
+
