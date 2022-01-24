@@ -10,7 +10,10 @@
 		Autoit v3
 	</li>
 	<li>
-		Description: Use HTTP Request and Facebook API
+		Description: Use HTTP Request, Facebook API, and some function
+	</li>
+	<li>
+		Features: Auto Rep comment, hide comment, get phonenumbers from comment
 	</li>
 	<li>
 		How to use:
